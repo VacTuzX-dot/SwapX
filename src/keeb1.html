@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="../icon/swapxW.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar bg-base-100 shadow-lg">
+      <div class="navbar-start">
+        <details class="dropdown">
+          <summary class="btn m-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 text-primary"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h7"
+              />
+            </svg>
+          </summary>
+          <ul
+            class="menu dropdown-content z-[1] w-52 rounded-box bg-base-100 p-2 shadow"
+          >
+            <li class="text-danger"><a href="./index.html">Home</a></li>
+            <li class="text-primary"><a href="./keeb1.html">Top 1</a></li>
+            <li class="text-danger"><a href="./keeb2.html">Top 2</a></li>
+            <li class="text-danger"><a href="./keeb3.html">Top 3</a></li>
+          </ul>
+        </details>
+        <div class="avatar pl-3 pr-0.5">
+          <div class="w-12 rounded shadow-md">
+            <a href="./index.html">
+              <img src="../icon/swapxW.png" />
+            </a>
+          </div>
+        </div>
+        <a
+          class="btn btn-ghost px-2 text-3xl text-primary underline underline-offset-2"
+          href="./index.html"
+          >SwapX</a
+        >
+      </div>
+      <div class="navbar-end">
+        <label class="swap swap-rotate pr-3">
+          <!-- this hidden checkbox controls the state -->
+          <input
+            type="checkbox"
+            data-toggle-theme="luxury,dim"
+            class="theme-controller"
+            id="theme-controller"
+          />
+
+          <!-- sun icon -->
+          <svg
+            class="swap-off h-7 w-7 fill-current text-primary"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"
+            />
+          </svg>
+
+          <!-- moon icon -->
+          <svg
+            class="swap-on h-7 w-7 fill-current text-primary"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z"
+            />
+          </svg>
+        </label>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="parallax-cxn keeb1">
+      <div class="parallax-container" style="height: auto">
+        <video autoplay muted loop class="cyber" preload="auto">
+          <source
+            class=""
+            src="https://www.thecoolector.com/wp-content/uploads/2022/05/cyberboard_terminal_kv.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+
+      <div class="parallax-container" style="height: 800px">
+        <img
+          class="parallax"
+          src="https://cdn-www.angrymiao.com/cyberboard_terminal/cyberboard_terminal_01_en.png"
+          alt=""
+          style="opacity: 0.7"
+        />
+        <div class="teaser">
+          <div class="content">
+            <p style="font-size: 2.2rem">
+              Retrofuturistic RGB | Advanced Intergrated Gasket Mount | Mirror
+              PVD Stainless Steel Weight Plate
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="parallax-container inspired" style="height: 650px">
+        <img
+          class="inspired"
+          src="https://cdn-www.angrymiao.com/cyberboard_terminal/cyberboard_terminal_02_en.png"
+          alt=""
+        />
+      </div>
+
+      <div class="parallax-container" style="height: 400px">
+        <div class="teaser">
+          <div class="content">
+            <h1 style="color: rgb(27, 218, 27)">Custom PC material</h1>
+            <p>
+              Exclusively for CYBERBOARD Terminal, we custom-made a
+              semi-transparent black PC material that doesn't require a coating
+              of paint. After mixing the colors, the base material is directly
+              sandblasted to achieve a delicate semi-transparent effect. This
+              improved production process is not only more eco-friendly, but is
+              also extremely durable and incredibly beautiful.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="parallax-container" style="height: 800px">
+        <img
+          class="parallax"
+          src="https://cdn-www.angrymiao.com/cyberboard_terminal/cyberboard_terminal_03.png"
+          alt=""
+        />
+      </div>
+
+      <div class="parallax-container" style="height: 400px">
+        <div class="teaser">
+          <div class="content">
+            <h1 style="color: rgb(27, 218, 27)">
+              Digital Rain dynamic lighting effect
+            </h1>
+            <p>
+              Digital Rain, which symbolizes Terminal’s command-line, flies
+              across the LED panel like it's on an endless search for
+              information. With a special after-effect from each keystroke, it’s
+              as geeky as it gets.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="parallax-container" style="height: auto">
+        <video autoplay muted loop class="cyber sm-cxn" preload="auto">
+          <source
+            class=""
+            src="https://cdn-www.angrymiao.com/cyberboard_terminal/cyberboard_terminal_04.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+      <div class="parallax-container" style="height: 600px">
+        <div class="teaser">
+          <div class="content">
+            <h1 style="color: rgb(27, 218, 27)">
+              Advanced translucent Gasket Mount with integrated design
+            </h1>
+            <p>
+              As our team is continuously experimenting to further improve the
+              touch and feel of CYBERBOARD, we came up with a redesigned gasket
+              structure. Implementing the Gasket Mount into a PC keyboard goes
+              further than just ensuring a good typing experience. The materials
+              and appearance on the inside should also be up to par. <br />
+              <br />
+              Differing from the previous iteration of Gasket Mount, we used
+              silicone with a hardness level of 10. The silicone is integrated
+              with the plate through injection molding, which not only looks
+              more transparent by blending in with the keyboard's overall
+              design, but also sounds less hollow and gives it a more solid
+              feel. <br />
+              <br />
+              The integrated plate and silicone pads provide a more consistent
+              internal structure. Gaps are less pronounced than in conventional
+              structures.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="parallax-container" style="height: auto">
+        <video autoplay muted loop class="cyber sm-cxn" preload="auto">
+          <source
+            class=""
+            src="https://cdn-www.angrymiao.com/cyberboard_terminal/cyberboard_terminal_06.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+      <div class="parallax-container" style="height: 500px">
+        <div class="teaser">
+          <div class="content">
+            <h1 style="color: rgb(27, 218, 27)">
+              Mirror PVD stainless steel weight
+            </h1>
+            <p>
+              Unlike metal, our semi-transparent PC material provides a unique
+              lighting experience. However, to achieve the same substantial feel
+              as when using metal, a counterweight is required.
+              <br />
+              <br />
+              We created a new radical design for the counterweight of
+              CYBERBOARD Terminal, with the weight plate being visible from the
+              exterior. Its mirror PVD stainless steel surface occupies most of
+              the bottom area. Exposed reflective stainless steel forms a stark,
+              yet dazzling contrast with the matte PC material.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="parallax-container inspired" style="height: 650px">
+        <img
+          class="inspired"
+          src="https://cdn-www.angrymiao.com/cyberboard_terminal/cyberboard_terminal_05.png"
+          alt=""
+        />
+      </div>
+
+      <div class="parallax-container" style="height: 700px">
+        <div class="teaser">
+          <div class="content">
+            <h1 style="color: rgb(27, 218, 27)">
+              Choose between engraved and non-engraved keycaps
+            </h1>
+            <p>
+              The switches are another fundamental aspect of CYBERBOARD
+              Terminal's unique retro look. We chose Glacier Black keycaps and
+              EQUALZ Kiwi switches and stabilizers. Kiwi switches, with their
+              unique translucent bright green color, add a touch of mystery to
+              the Glacier Black keycaps - perfectly complimenting Terminal's
+              classic black and green color scheme.
+              <br />
+              <br />
+              As for the keycaps, both engraved and non-engraved are available.
+              Non-engraved keycaps are a great choice for those who're looking
+              for a bolder and more aggressive look.
+              <br />
+              <br />
+              *During testing, we liked the feel of Icy Silver switches when
+              used for the space bar. Therefore, we decided to include an
+              additional Icy Silver switch in the Terminal Bundle.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="parallax-container inspired" style="height: auto">
+        <img
+          class="inspired"
+          src="https://cdn-www.angrymiao.com/cyberboard_terminal/cyberboard_terminal_07.png"
+          alt=""
+        />
+      </div>
+      <div class="parallax-container" style="height: 300px">
+        <div class="teaser">
+          <div class="content">
+            <p style="opacity: 0.8">
+              Left: engraved keycaps / Right: non-engraved keycaps
+            </p>
+            <h1 style="color: rgb(27, 218, 27)">Exclusive keyboard case</h1>
+            <p>
+              Our keyboard case is pretty hardcore, but the black and white
+              color scheme is not really consistent with the retro black and
+              green colors of CYBERBOARD Terminal. That’s why we designed the
+              case with a black and green color scheme, achieving that full
+              hacker look.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="parallax-container" style="height: 800px">
+        <img
+          class="parallax"
+          src="https://cdn-www.angrymiao.com/cyberboard_terminal/cyberboard_terminal_08.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- footerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr -->
+
+    <footer class="footer footer-center bg-primary p-7 text-primary-content">
+      <aside>
+        <img class="swapw" src="/icon/swapxW.png" />
+        <h3 class="font-bold">Taweesak Numma<br />Joined CMTC since 2021</h3>
+        <h3>Copyright © 2024 - All right reserved</h3>
+      </aside>
+
+      <div class="grid grid-flow-col gap-4">
+        <a href="https://discord.com/users/942687569693528084" target="_blank"
+          ><i class="fa-brands fa-discord"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/v4lk.yrieq_1sf3sb.o8lixw/"
+          target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://github.com/VacTuzX-dot" target="_blank"
+          ><i class="fa-brands fa-github-alt"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/ImaginaryfriendNDplasticfriend/"
+          target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+    </footer>
+    <!-- wtf -->
+    <script src="/parallax.min.js"></script>
+    <script>
+      var parallax = new Parallax(".parallax");
+      parallax.init();
+    </script>
+
+    <!-- script -->
+    <script src="./theme-controller.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
+  </body>
+</html>

@@ -2,7 +2,7 @@ const checkbox = document.getElementById("theme-controller");
 
 // Save checkbox state on change
 checkbox.addEventListener("change", (event) => {
-  localStorage.setItem("theme", event.target.checked ? "luxury" : "winter"); // Store "dark" or "light"
+  localStorage.setItem("theme", event.target.checked ? "luxury" : "dim"); // Store "dark" or "light"
 });
 
 // Restore checkbox state on page load
