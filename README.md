@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/VacTuzX-dot/vactuzx.me
+git clone https://github.com/VacTuzX-dot/SwapX.git
 ```
 
 ## Setup
